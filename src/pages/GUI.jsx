@@ -3,7 +3,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import clsx from 'clsx';
 import HomeIcon from '@mui/icons-material/Home';
-
 const GUI = () => {
     const homeHandler = () => {
         window.location.href = "/";
@@ -25,40 +24,40 @@ const GUI = () => {
         );
       }
   return (
-    <div>
-      <HomepageHeader/>
-      <div className={styles.guiWrapper}>
-        <div className={styles.guiSection}>
-            <img src="../../static/img/gui/gui.png" alt="Image" style={{ width: '70%', height: 'auto' }} />
-            <ol className={styles.olDecor}>
-                <li className={styles.liDecor}>Clock and Sign-in Bar</li>
-                <li className={styles.liDecor}>Selection Task Bar</li>
-                <li className={styles.liDecor}>Status Bar</li>
-                <li className={styles.liDecor}>Vertical Task Bar</li>
-                <li className={styles.liDecor}>Range and Zoom Control</li>
-                <li className={styles.liDecor}>Horizontal Information Bar</li>
-                <li className={styles.liDecor}>Mini Map</li>
-                <li className={styles.liDecor}>Drawing Tool Bar</li>
-                <li className={styles.liDecor}>Layers</li>
-            </ol>
-        </div>
-        <div className={styles.btnGrp}>
-          <div className={styles.guirow}>
-            <button className={styles.btnGrpBtn}>Clock and Sign-in Bar</button>
-            <button className={styles.btnGrpBtn}>Selection Task Bar</button>
-            <button className={styles.btnGrpBtn}>Status Bar</button>
-            <button className={styles.btnGrpBtn}>Vertical Task Bar</button>
+      <div>
+        <HomepageHeader/>
+        <div className={styles.guiWrapper}>
+          <div className={styles.guiSection}>
+              <img src="../../static/img/gui/gui.png" alt="Image" style={{ width: '70%', height: 'auto' }} />
+              <ol className={styles.olDecor}>
+                  <li className={styles.liDecor}>Clock and Sign-in Bar</li>
+                  <li className={styles.liDecor}>Selection Task Bar</li>
+                  <li className={styles.liDecor}>Status Bar</li>
+                  <li className={styles.liDecor}>Vertical Task Bar</li>
+                  <li className={styles.liDecor}>Range and Zoom Control</li>
+                  <li className={styles.liDecor}>Horizontal Information Bar</li>
+                  <li className={styles.liDecor}>Mini Map</li>
+                  <li className={styles.liDecor}>Drawing Tool Bar</li>
+                  <li className={styles.liDecor}>Layers</li>
+              </ol>
           </div>
-          <div className={styles.guirow}>
-            <button className={styles.btnGrpBtn}>Range and Zoom Control</button>
-            <button className={styles.btnGrpBtn}>Horizontal Information Bar</button>
-            <button className={styles.btnGrpBtn}>Mini Map</button>
-            <button className={styles.btnGrpBtn}>Drawing Tool Bar</button>
-            <button className={styles.btnGrpBtn}>Layers</button>
+          <div className={styles.btnGrp}>
+            <div className={styles.guirow}>
+              <a href="/ClockSigninBar"><button className={styles.btnGrpBtn}>Clock and Sign-in Bar</button></a>
+              <a href="/SelectionTaskBar"><button className={styles.btnGrpBtn}>Selection Task Bar</button></a>
+              <a href="/StatusBar"><button className={styles.btnGrpBtn}>Status Bar</button></a>
+              <a href="/VerticalTaskBar"><button className={styles.btnGrpBtn}>Vertical Task Bar</button></a>
+            </div>
+            <div className={styles.guirow}>
+              <a href="/RangeZoomControl"><button className={styles.btnGrpBtn}>Range and Zoom Control</button></a>
+              <a href="/HorizontalInfoBar"><button className={styles.btnGrpBtn}>Horizontal Information Bar</button></a>
+              <a href="/MiniMap"><button className={styles.btnGrpBtn}>Mini Map</button></a>
+              <a href="/DrawingToolBar"><button className={styles.btnGrpBtn}>Drawing Tool Bar</button></a>
+              <a href="/Layers"><button className={styles.btnGrpBtn}>Layers</button></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   )
 }
 
