@@ -23,9 +23,24 @@ if (componentName === "Approval of Track") {
 if (componentName === "Database maintenance") {
   window.location.href = "/MaintainDatabase";
 }
+if (componentName === "GUI") {
+  window.location.href = "/GUI";
+}
+if (componentName === "Sign up / Login") {
+  window.location.href = "/SignupLogin";
+}
 };
 
 const FeatureList = [
+  {
+    title: 'Sign up / Login',
+    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+      User can create a tracks and dynamically visualize them.
+      </>
+    ),
+  },
 {
   title: 'Creation of Track',
   Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
@@ -59,6 +74,15 @@ description: (
     User can do CRUD Operations for maintenance of tracks
   </>
 ),
+},
+{
+  title: 'GUI',
+  Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+  description: (
+    <>
+    User can create a tracks and dynamically visualize them.
+    </>
+  ),
 },
 
 ];
