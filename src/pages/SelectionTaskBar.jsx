@@ -7,7 +7,7 @@ const SelectionTaskBar = () => {
   return (
     <div>
       <HomepageHeader />
-      <h2>Selection Task Bar</h2>
+      <h2 className={styles.paddingleft}>Selection Task Bar</h2>
       <div className={styles.selectionWrapper}>
         Following are the options available in Selection Task Bar
         <ul>
