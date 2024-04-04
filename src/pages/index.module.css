@@ -42,7 +42,7 @@
   height: 10vh;
   border-radius: 10px;
   background-color: transparent;
-  width: auto;
+  width: 16vw;
   cursor: pointer;
   font-weight: 600;
 }
@@ -96,6 +96,45 @@
   font-size: 18px;
 }
 
+.paddingleft{
+  padding-left: 3vw;
+}
+
+.imagesWrapper{
+  display: flex;
+  flex-direction: column;
+  padding-left: 3vw;
+  margin-bottom: 6vh;
+}
+
+.images{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.images h4 {
+  font-size: 18px;
+}
+
+.anchor{
+  text-decoration: none;
+}
+
+.selectionWrapper{
+margin-left: 3vw;
+}
+
+.selectionBar{
+  margin-left: 3vw;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectionBar h4 {
+  font-size:  22px;
+}
 
 @media screen and (max-width: 966px) {
   .heroBanner {

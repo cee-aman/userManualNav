@@ -12,7 +12,7 @@ const ClockSigninBar = () => {
         <h1>Clock and Sign-in Bar</h1>
         <img src="../../static/img/gui/clock.png" alt="Image" style={{ width: '40%', height: 'auto' }} />
       </div>
-        <ul>
+        <ul className={styles.paddingleft}>
           <li className={styles.sectionClockli}>
             This provides the time information pertinent to the data.
           </li>
@@ -24,7 +24,6 @@ const ClockSigninBar = () => {
           <li className={styles.sectionClockli}>
             It provides the following drop-down options (for user):
             <ul>
-              <li>User Details</li>
               <li>Change Password</li>
               <li>Log Out</li>
             </ul>
@@ -50,6 +49,20 @@ const ClockSigninBar = () => {
             </ul>
           </li>
         </ul>
+       <div className={styles.imagesWrapper}>
+        <div className={styles.images}>
+            <h4>User Details</h4>
+            <img src="../../static/img/gui/userdetails.png" alt="Image" style={{ width: '80%', height: 'auto' }} />
+          </div>
+          <div className={styles.images}>
+            <h4>User Rights</h4>
+            <img src="../../static/img/gui/userrights.png" alt="Image" style={{ width: '80%', height: 'auto' }} />
+          </div>
+          <div className={styles.images}>
+            <h4>Change Password</h4>
+            <img src="../../static/img/gui/changepass.png" alt="Image" style={{ width: '25%', height: 'auto' }} />
+          </div>
+       </div>
       </div>
     </div>
   );

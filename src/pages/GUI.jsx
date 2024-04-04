@@ -43,17 +43,17 @@ const GUI = () => {
           </div>
           <div className={styles.btnGrp}>
             <div className={styles.guirow}>
-              <a href="/ClockSigninBar"><button className={styles.btnGrpBtn}>Clock and Sign-in Bar</button></a>
-              <a href="/SelectionTaskBar"><button className={styles.btnGrpBtn}>Selection Task Bar</button></a>
-              <a href="/StatusBar"><button className={styles.btnGrpBtn}>Status Bar</button></a>
-              <a href="/VerticalTaskBar"><button className={styles.btnGrpBtn}>Vertical Task Bar</button></a>
+              <a className={styles.anchor} href="/ClockSigninBar"><button className={styles.btnGrpBtn}>Clock and Sign-in Bar</button></a>
+              <a className={styles.anchor} href="/SelectionTaskBar"><button className={styles.btnGrpBtn}>Selection Task Bar</button></a>
+              <a className={styles.anchor} href="/StatusBar"><button className={styles.btnGrpBtn}>Status Bar</button></a>
+              <a className={styles.anchor} href="/VerticalTaskBar"><button className={styles.btnGrpBtn}>Vertical Task Bar</button></a>
             </div>
             <div className={styles.guirow}>
-              <a href="/RangeZoomControl"><button className={styles.btnGrpBtn}>Range and Zoom Control</button></a>
-              <a href="/HorizontalInfoBar"><button className={styles.btnGrpBtn}>Horizontal Information Bar</button></a>
-              <a href="/MiniMap"><button className={styles.btnGrpBtn}>Mini Map</button></a>
-              <a href="/DrawingToolBar"><button className={styles.btnGrpBtn}>Drawing Tool Bar</button></a>
-              <a href="/Layers"><button className={styles.btnGrpBtn}>Layers</button></a>
+              <a className={styles.anchor} href="/RangeZoomControl"><button className={styles.btnGrpBtn}>Range and Zoom Control</button></a>
+              <a className={styles.anchor} href="/HorizontalInfoBar"><button className={styles.btnGrpBtn}>Horizontal Information Bar</button></a>
+              <a className={styles.anchor} href="/MiniMap"><button className={styles.btnGrpBtn}>Mini Map</button></a>
+              <a className={styles.anchor} href="/DrawingToolBar"><button className={styles.btnGrpBtn}>Drawing Tool Bar</button></a>
+              <a className={styles.anchor} href="/Layers"><button className={styles.btnGrpBtn}>Layers</button></a>
             </div>
           </div>
         </div>
