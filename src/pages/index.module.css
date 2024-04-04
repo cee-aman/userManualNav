@@ -136,6 +136,23 @@ font-size: 18px;
   margin-bottom: 3vh;
 }
 
+.infobar p {
+  font-size: 18px;
+
+}
+
+
+.drawingtoolbarH2{
+padding-left: 3vw;
+margin-top: 3vh ;
+
+}
+.drawingtoolbar{
+  padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
 .statusWrapper{
   margin-top: 6vh;
 }
