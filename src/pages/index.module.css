@@ -127,6 +127,10 @@ margin-left: 3vw;
 font-size: 18px;
 }
 
+.statusWrapper{
+  margin-top: 6vh;
+}
+
 .selectionBar{
   margin-left: 3vw;
   margin-bottom: 10vh;
