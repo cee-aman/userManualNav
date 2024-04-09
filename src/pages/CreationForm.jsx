@@ -38,6 +38,9 @@ function CreationForm() {
     <HomepageHeader/>
     <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#f0f0f0', padding: '20px' }}>
     <div >
+    <div style={{marginTop:"10px"}}>
+<img src="../../static/img/creationformIMage.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+</div>
         <div style={{ margin: '20px', padding: '20px', border: '2px solid #333', borderRadius: '10px', backgroundColor: 'white', fontFamily: 'Arial, sans-serif' }}>
             <h2 style={{ marginBottom: '20px', color: '#333', textAlign: 'center', fontSize: '24px', fontWeight: 'bold' }}>
                 Welcome to the Track Creation Phase
@@ -89,14 +92,16 @@ function CreationForm() {
     </div>
    
 </div>
-<div style={{marginTop:"10px"}}>
-<img src="../../static/img/image_2024_03_21T10_31_36_183Z.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+<div style={{marginLeft:"20px"}}>
+<h1>Demonstration</h1>
+</div>
+
+<div style={{marginLeft:"30px"}}>
+<video src='/static/img/create.mp4'  width="800" height="400" controls />
 </div>
 <div style={{ marginTop: "20px", textAlign: "center", fontSize: "16px", color: "#666" }}>
   Thank you for using the Track Injection Module. Your inputs are crucial for enhancing maritime tracking capabilities. Please review your entries carefully before submitting.
 </div>
-
-  
     </div>
   )
 }

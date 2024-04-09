@@ -29,6 +29,9 @@ function ApprovalForm() {
   return (
     <div>
       <HomepageHeader/>
+      <div style={{marginTop:"10px"}}>
+      <img src="../../static/img/approvalMainImage.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+      </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#f0f0f0', padding: '20px' }}>
         <div style={{ width: '100%' }}>
           <div style={{ margin: '20px', padding: '20px', border: '2px solid #333', borderRadius: '10px', backgroundColor: 'white', fontFamily: 'Arial, sans-serif' }}>
@@ -58,9 +61,14 @@ function ApprovalForm() {
           </div>
         </div>
       </div>
-      <div style={{marginTop:"10px"}}>
-      <img src="../../static/img/image.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+      <div style={{marginLeft:"20px"}}>
+      <h1>Demonstration</h1>
       </div>
+      
+      <div style={{marginLeft:"30px"}}>
+      <video src='/static/img/approvaldemons.mp4'  width="800" height="400" controls />
+      </div>
+      
       <div style={{ marginTop: "20px", textAlign: "center", fontSize: "16px", color: "#666" }}>
         Thank you for using the Track Injection Module. Your inputs are crucial for enhancing maritime tracking capabilities. Please review your entries carefully before submitting.
       </div>

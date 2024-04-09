@@ -29,6 +29,12 @@ function UpdationForm() {
   return (
     <div>
       <HomepageHeader/>
+      <div style={{marginTop:"10px"}}>
+      <img src="../../static/img/updateImgmain.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+      </div>
+      <div style={{marginTop:"10px"}}>
+      <img src="../../static/img/Screenshot 2024-04-09 152353.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+      </div>
       <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: '#f0f0f0', padding: '20px' }}>
         <div style={{ margin: '20px', padding: '20px', border: '2px solid #333', borderRadius: '10px', backgroundColor: 'white', fontFamily: 'Arial, sans-serif', width: '1200px' }}>
           <h2 style={{ marginBottom: '20px', color: '#333', textAlign: 'center', fontSize: '24px', fontWeight: 'bold' }}>
@@ -62,10 +68,16 @@ function UpdationForm() {
             <p style={{ fontSize: '16px' }}>Specify the current approval status of the update, whether it's approved, pending, or rejected.</p>
           </div>
         </div>
+    
       </div>
-      <div style={{marginTop:"10px"}}>
-<img src="../../static/img/Screenshot 2024-03-26 163657.png" alt="Image" style={{ width: '100%', height: 'auto' }} />
+      <div style={{marginLeft:"20px"}}>
+<h1>Demonstration</h1>
 </div>
+
+<div style={{marginLeft:"30px"}}>
+<video src='/static/img/updatedemons.mp4'  width="800" height="400" controls />
+</div>
+     
 <div style={{ marginTop: "20px", textAlign: "center", fontSize: "16px", color: "#666" }}>
   Thank you for using the Track Injection Module. Your inputs are crucial for enhancing maritime tracking capabilities. Please review your entries carefully before submitting.
 </div>
