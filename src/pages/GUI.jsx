@@ -47,6 +47,8 @@ const GUI = () => {
               <a className={styles.anchor} href="/SelectionTaskBar"><button className={styles.btnGrpBtn}>Selection Task Bar</button></a>
               <a className={styles.anchor} href="/StatusBar"><button className={styles.btnGrpBtn}>Status Bar</button></a>
               <a className={styles.anchor} href="/VerticalTaskBar"><button className={styles.btnGrpBtn}>Vertical Task Bar</button></a>
+              <a className={styles.anchor} href="/OtrGui"><button className={styles.btnGrpBtn}>OTR GUI</button></a>
+
             </div>
             <div className={styles.guirow}>
               <a className={styles.anchor} href="/RangeZoomControl"><button className={styles.btnGrpBtn}>Range and Zoom Control</button></a>
@@ -54,6 +56,7 @@ const GUI = () => {
               <a className={styles.anchor} href="/MiniMap"><button className={styles.btnGrpBtn}>Mini Map</button></a>
               <a className={styles.anchor} href="/DrawingToolBar"><button className={styles.btnGrpBtn}>Drawing Tool Bar</button></a>
               <a className={styles.anchor} href="/Layers"><button className={styles.btnGrpBtn}>Layers</button></a>
+
             </div>
           </div>
         </div>

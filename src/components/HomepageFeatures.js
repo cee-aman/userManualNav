@@ -27,7 +27,12 @@ if (componentName === "GUI") {
   window.location.href = "/GUI";
 }
 if (componentName === "Sign up / Login") {
+
   window.location.href = "/SignupLogin";
+
+} if (componentName === 'OTR') {
+
+  window.location.href = "/Otr";
 }
 };
 
@@ -85,6 +90,15 @@ description: (
   ),
 },
 
+{
+  title: 'OTR',
+  Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+  description: (
+    <>
+    Operational Turnaround
+    </>
+  ),
+},
 ];
 
 function Feature({Svg, title, description, onClick, selectedComponent}) {
