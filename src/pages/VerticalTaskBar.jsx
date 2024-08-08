@@ -7,18 +7,11 @@ const VerticalTaskBar = () => {
     <div>
     <HomepageHeader />
     <div className={styles.statusWrapper}>
-      <h2 className={styles.paddingleft}>Vertical Task Bar</h2>
+      <h1 className={styles.drawingtoolbarH2}>Vertical Task Bar</h1>
       <div className={styles.verticalbar}>
         The Vertical Task Bar has the following selections as icons with buttons:
         <div className={styles.icons}>
-        <img src="../../static/img/gui/verticalbar.png" alt="Image" style={{ width: '3%', height: '3%' }} />
-        <ul className={styles.verticalicons}>
-          <li>Data Loader</li>
-          <li>Ship Details</li>
-          <li>Display Options</li>
-          <li>Layers</li>
-          <li>Route Manager</li>
-        </ul>
+        <img src="../../static/img/gui/verticalbar.png" alt="Image" style={{ width: '14%', height: '100%' }} />
         </div>
         <div className={styles.dataloader}>
           <h4>Data Loader</h4>
@@ -28,6 +21,10 @@ const VerticalTaskBar = () => {
             <li>This feature enhances data exploration and analysis by providing a clear, hierarchical structure.</li>
           </ul>
           <img src="../../static/img/gui/dataloader.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+          <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/dataloader.mp4" width="800" height="400" controls />
+        </div>
         </div>
         <div className={styles.dataloader}>
           <h4>Ship Details</h4>
@@ -51,6 +48,10 @@ const VerticalTaskBar = () => {
           <img src="../../static/img/gui/shipdetails.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
           <img src="../../static/img/gui/shipdetails2.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
          </div>
+         <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/shipdetails.mp4" width="800" height="400" controls />
+        </div>
         </div>
         <div className={styles.dataloader}>
           <h4>Display Options</h4>
@@ -99,7 +100,47 @@ const VerticalTaskBar = () => {
             <li>Furthermore, the application allows users to customize the display of coordinates on the GUI. Users can switch between two formats: "dd.mm.ss" and "dd.dd.dd", providing flexibility in how geographical coordinates are presented.</li>
           </ul>
           <img src="../../static/img/gui/others.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+
+          <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/displayoptions.mp4" width="800" height="400" controls />
         </div>
+        </div>
+
+        <div className={styles.dataloader}>
+          <h4>Layers</h4>
+          <ul>
+            <li>The software has a provision of overlaying maritime boundary layers pertinent to the chart area.</li>
+            <li>This overlay can be single or multiple depending on the number of layers that the user selects to view on the chart.  </li>
+            <li>Click on the layers symbol.</li>
+            <li>Drop-down Menu with following options appear: -  </li>
+            <img src="../../static/img/gui/layersmap.png" alt="Image" style={{ width: '20%', height: 'auto', margin: '10px 0' }} />
+            <li>Tick the required layers to be displayed on screen. On selection, the overlay would be applied to the chart area accordingly. </li>
+            <li>To remove the layer, simply uncheck the box on the menu indicated above.</li> 
+          </ul>
+          <div style={{margin: "60px 0"}}>
+            <h2>Demonstration</h2>
+            <video src="../../static/videos/layersmap.mp4" width="800" height="400" controls />
+        </div>
+        </div>
+
+        <div className={styles.dataloader}>
+          <h4>Area Filter</h4>
+          <ul>
+          <li>The application allows users to plot custom areas on the map.</li>
+          <li>Users can save, edit, and delete these custom areas.</li>
+          <li>To plot an area, users can use the toolbar located on the right side of the map.</li>
+          <li>Right-clicking on a created shape provides an option to save it, if the user has the appropriate permissions.</li>
+          <li>Selecting a shape from the area filter will plot it on the map.</li>
+          <li>Right-clicking on a plotted shape allows users to edit or delete it, based on their permissions.</li>
+          </ul>
+          <img src="../../static/img/gui/customareapanel.png" alt="Image" style={{ width: '20%', height: 'auto', margin: '10px 0' }} />
+          <div style={{margin: "60px 0"}}>
+            <h2>Demonstration</h2>
+            <video src="../../static/videos/customAreas.mp4" width="800" height="400" controls />
+        </div>
+        </div>
+
         <div className={styles.dataloader}>
           <h4>Route Manager</h4>
           <ul>
@@ -127,6 +168,41 @@ const VerticalTaskBar = () => {
           <img src="../../static/img/gui/routeeditor.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
           <img src="../../static/img/gui/routeeditor2.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
           </div>
+          <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/routemanager.mp4" width="800" height="400" controls />
+        </div>
+        </div>
+
+
+        <div className={styles.dataloader}>
+          <h4>Lettered Position</h4>
+          <ul>
+            <li>The Lettered Position feature of our application is a tool designed to facilitate the creation, customization, and management of lettered positions on the map. </li>
+            <li>This feature offers two primary functionalities: Create Lettered Position and Edit Lettered Position, each catering to different user needs and preferences.</li>
+          </ul>
+          <img src="../../static/img/gui/LPpanel.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+          <h3>Create Lettered Position</h3>
+          <ul>
+            <li>This option enables users to define new positions on the map. </li>
+            <li>Users can enter the latitude and longitude of the position either by manually entering the coordinates, which can be converted to DD.DD, DD.MM.MM, or DD.MM.SS formats, or by picking the position directly from the map.</li>
+            <li>Users also have the ability to customize the appearance of the positions by adjusting the color.</li>
+          </ul>
+          <h3>Edit Lettered Position</h3>
+          <ul>
+            <li>This functionality presents a comprehensive overview of all lettered positions created by the user. </li>
+            <li>It allows for the selection of any previously created position, enabling users to edit its color. </li>
+            <li>Additionally, depending on the user's rights, they can also delete positions that are no longer needed. </li>
+            <li>Moreover, users have the option to toggle the visibility of the poisitons on the map. This means that users can choose to display or hide any position they have created.</li>
+          </ul>
+          <div className={styles.imgwrapper}>
+          <img src="../../static/img/gui/createLp.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+          <img src="../../static/img/gui/editLp.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+          </div>
+          <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/lp.mp4" width="800" height="400" controls />
+        </div>
         </div>
       </div>
     </div>

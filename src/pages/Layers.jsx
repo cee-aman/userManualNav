@@ -7,7 +7,7 @@ const Layers = () => {
     <div>
       <div>
         <HomepageHeader />
-        <h2 className={styles.drawingtoolbarH2}>Drawing Tool Bar</h2>
+        <h1 className={styles.drawingtoolbarH2}>Layers</h1>
         <div className={styles.paddingleft}>
           <ul>
             <li>On the top right corner of the chart area above the drawing tool bar, there is a symbol for layers. The software has a provision of overlaying critical environmental information pertinent to the chart area.</li>
@@ -21,6 +21,10 @@ const Layers = () => {
             <li>To remove the layer, simply uncheck the box on the menu indicated above.</li> 
           </ul>
         </div>
+        <div className={styles.paddingleft} style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/tools.mp4" width="800" height="400" controls />
+      </div>
       </div>
     </div>
   )
