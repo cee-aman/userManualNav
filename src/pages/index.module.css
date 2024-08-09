@@ -195,8 +195,8 @@ margin-top: 3vh ;
   top: 0;
   right: 0;
   padding: 4px;
-  width: 27%;
-  height: auto; 
+  width: 27%; 
+  height: auto;
  }
 
 .statusWrapper{
@@ -225,9 +225,6 @@ margin-top: 3vh ;
     padding: 2rem;
   }
 }
-
-
-
 
 .home {
   position: relative;
