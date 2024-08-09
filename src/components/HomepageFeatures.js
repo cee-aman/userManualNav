@@ -122,7 +122,7 @@ console.log(selectedComponent)
 
 return (
   <section className={styles.features}>
-    <div className="container">
+    <div style={{cursor: "pointer"}} className="container">
       <div className="row">
         {FeatureList.map((props, idx) => (
           <Feature key={idx} {...props} onClick={() => handleFeatureClick(props.title)} />
