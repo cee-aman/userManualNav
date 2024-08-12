@@ -27,6 +27,23 @@ const VerticalTaskBar = () => {
         </div>
         </div>
         <div className={styles.dataloader}>
+          <h4>Load Imagery</h4>
+          <ul>
+            <li>This functionality allows the users to add satellite images of .tif or .jp2 format to then be superimposed on top of the base map as a layer. </li>
+            <li>As shown below, on clicking the ‘Select Image’ text column, a dropdown drops listing all the images present in the database.</li>
+            <img src="../../static/img/gui/imagery.png" alt="Image" style={{ width: '20%', height: 'auto' }} />
+            <li>Moreover, the satellite images can also be filtered on the basis of month and year.</li>
+            <li>On selecting an image, the satellite image is then made to be a layer according to its geo-location details on top of the base map as a layer.</li>
+            <li>For example on selecting ‘singPort’ and clicking on ‘Load’, the satellite image of the Singapore port is made to be a layer above the Singapore region in base map as shown below,
+            </li>
+          </ul>
+          <img src="../../static/img/gui/imagery2.png" alt="Image" style={{ width: '60%', height: 'auto' }} />
+          <div style={{margin: "60px 0"}}>
+          <h2>Demonstration</h2>
+          <video src="../../static/videos/loadImagery.mp4" width="800" height="400" controls />
+        </div>
+        </div>
+        <div className={styles.dataloader}>
           <h4>Ship Details</h4>
           <ul>
             <li>Place the cursor on a vessel in the chart area and click to select.</li>
