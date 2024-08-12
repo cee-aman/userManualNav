@@ -26,6 +26,9 @@ if (componentName === "Database maintenance") {
 if (componentName === "GUI") {
   window.location.href = "/GUI";
 }
+if (componentName === "Data Ingestion") {
+  window.location.href = "/DataIngestion";
+}
 if (componentName === "Sign up / Login") {
 
   window.location.href = "/SignupLogin";
@@ -96,6 +99,15 @@ description: (
   description: (
     <>
     Operational Turnaround
+    </>
+  ),
+},
+{
+  title: 'Data Ingestion',
+  Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+  description: (
+    <>
+    Data Ingestion
     </>
   ),
 },

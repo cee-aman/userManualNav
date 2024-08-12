@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './index.module.css';
 import HomepageHeader from '../components/Header'
+import Link from '@docusaurus/Link'
 
 const VerticalTaskBar = () => {
   return (
@@ -37,11 +38,14 @@ const VerticalTaskBar = () => {
             <li>For example on selecting ‘singPort’ and clicking on ‘Load’, the satellite image of the Singapore port is made to be a layer above the Singapore region in base map as shown below,
             </li>
           </ul>
-          <img src="../../static/img/gui/imagery2.png" alt="Image" style={{ width: '60%', height: 'auto' }} />
+          <img src="../../static/img/gui/imagery2.png" alt="Image" style={{ width: '60%', height: 'auto', marginBottom: "20px" }} />
+          <li>Similarly, on clicking ‘Unload’, the satellite image layer will be removed from top of the base map.</li>
+          <li>If delete is selected, then the image is deleted from the database and will have to be manually added by the user again if he/she wants to visualize it again.</li>
           <div style={{margin: "60px 0"}}>
           <h2>Demonstration</h2>
           <video src="../../static/videos/loadImagery.mp4" width="800" height="400" controls />
         </div>
+        <Link to="/SatelliteDataIngestion"><h2>Instructions to upload satellite images to database</h2> </Link>
         </div>
         <div className={styles.dataloader}>
           <h4>Ship Details</h4>
