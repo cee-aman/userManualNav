@@ -38,6 +38,10 @@ const GUI = () => {
                   <li className={styles.liDecor}>Horizontal Information Bar</li>
                   <li className={styles.liDecor}>Mini Map</li>
                   <li className={styles.liDecor}>Drawing Tool Bar</li>
+                  <li className={styles.liDecor}>OTR GUI</li>
+                  <li className={styles.liDecor}>ETA & Bearing Range Calculator</li>
+
+
               </ol>
           </div>
           <div className={styles.btnGrp}>
@@ -46,12 +50,16 @@ const GUI = () => {
               <a className={styles.anchor} href="/SelectionTaskBar"><button className={styles.btnGrpBtn}>Selection Task Bar</button></a>
               <a className={styles.anchor} href="/StatusBar"><button className={styles.btnGrpBtn}>Status Bar</button></a>
               <a className={styles.anchor} href="/VerticalTaskBar"><button className={styles.btnGrpBtn}>Vertical Task Bar</button></a>
+              <a className={styles.anchor} href="/ETA"><button className={styles.btnGrpBtn}>ETA & Bearing Range Calculator</button></a>
+
             </div>
             <div className={styles.guirow}>
               <a className={styles.anchor} href="/RangeZoomControl"><button className={styles.btnGrpBtn}>Range and Zoom Control</button></a>
               <a className={styles.anchor} href="/HorizontalInfoBar"><button className={styles.btnGrpBtn}>Horizontal Information Bar</button></a>
               <a className={styles.anchor} href="/MiniMap"><button className={styles.btnGrpBtn}>Mini Map</button></a>
               <a className={styles.anchor} href="/DrawingToolBar"><button className={styles.btnGrpBtn}>Drawing Tool Bar</button></a>
+              <a className={styles.anchor} href="/OTRGUI"><button className={styles.btnGrpBtn}>OTR GUI</button></a>
+
             </div>
           </div>
         </div>
