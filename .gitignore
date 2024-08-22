@@ -5,6 +5,8 @@
 /build
 /static/videos/*
 
+/static/videos/*
+
 # Generated files
 .docusaurus
 .cache-loader
