@@ -9,3 +9,31 @@
   height: 200px;
   width: 200px;
 }
+
+.btnGrp{
+  width: 96vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.anchor{
+  text-decoration: none;
+}
+
+.btnGrpBtn{
+  font-size: 14px;
+  height: 5vh;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: white;
+  width: 10vw;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
+.active{
+  background-color: black;
+  color: white;
+}
