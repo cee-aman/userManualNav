@@ -3,6 +3,7 @@
 
 # Production
 /build
+/static/videos/*
 
 /static/videos/*
 

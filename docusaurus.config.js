@@ -41,9 +41,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'User Manual NavDrishti',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'My Site Loo',
           src: 'img/logo.svg',
         },
         items: [
