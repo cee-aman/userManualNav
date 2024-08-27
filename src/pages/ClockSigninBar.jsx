@@ -56,10 +56,30 @@ const ClockSigninBar = () => {
           </div>
           <div className={styles.images}>
             <h4>User Rights</h4>
+            <ul className={styles.paddingleft}>
+              The User Rights Feature allows admins to manage user permissions, ensuring controlled access to key functionalities based on user roles. Admins can assign or revoke rights for:
+                <li>Tracks (Ships)</li>
+                <li>Route Management</li>
+                <li>Lettered Position</li>
+                <li>Graphical Objects</li>
+                <br></br>
+              Each functionality has the following rights:
+                <li><strong>Create: </strong>Create new entries.</li>
+                <li><strong>Edit: </strong>Modify existing entries.</li>
+                <li><strong>Delete:</strong>Remove entries.</li>
+                <li><strong>Show:</strong> Control visibility of entries created by all users or only the logged-in user.</li>
+            </ul>
+            <br></br>
+            Tracks (Ships) has an additional right, Approve, which lets admins review and approve new tracks before they are visible on the GUI, ensuring data accuracy before public display.
+            <br></br>
             <img src="../../static/img/gui/userrights.png" alt="Image" style={{ width: '80%', height: 'auto' }} />
           </div>
           <div className={styles.images}>
             <h4>Change Password</h4>
+            <div style={{padding: "0 50px 10px 20px"}}>
+            The Admin Password Management Feature enables administrators to reset the password for any user within the application. The admin can select the specific user from a dropdown list and update their password as needed. This ensures the admin can assist users in recovering access or enforcing security protocols, such as requiring password updates.
+            This feature helps maintain security and user access control, allowing quick password changes.
+            </div>
             <img src="../../static/img/gui/changepass.png" alt="Image" style={{ width: '25%', height: 'auto' }} />
           </div>
        </div>
